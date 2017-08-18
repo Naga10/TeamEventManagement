@@ -102,14 +102,6 @@
     </Content>
     <Content Include="bs-config.json" />
     <Content Include="package.json" />
-    <Content Include="src\app\app.component.js.map" />
-    <Content Include="src\app\app.component.spec.js.map" />
-    <Content Include="src\app\app.module.js.map" />
-    <Content Include="src\app\Components\about.component.js.map" />
-    <Content Include="src\app\Components\user.component.js.map" />
-    <Content Include="src\app\Service\app.routing.js.map" />
-    <Content Include="src\app\Service\json.service.js.map" />
-    <Content Include="src\main.js.map" />
     <Content Include="src\tsconfig.json" />
     <Content Include="tslint.json" />
     <None Include="Web.Debug.config">
@@ -120,17 +112,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="src\app\app.component.js" />
-    <Content Include="src\app\app.component.spec.js" />
-    <Content Include="src\app\app.module.js" />
-    <Content Include="src\app\Components\about.component.js" />
-    <Content Include="src\app\Components\user.component.js" />
     <Content Include="src\app\Components\user.html" />
-    <Content Include="src\app\Service\app.routing.js" />
-    <Content Include="src\app\Service\json.service.js" />
     <Content Include="src\favicon.ico" />
     <Content Include="src\index.html" />
-    <Content Include="src\main.js" />
     <Content Include="src\styles.css" />
     <Content Include="src\systemjs.config.extras.js" />
     <Content Include="src\systemjs.config.js" />

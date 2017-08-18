@@ -21,11 +21,11 @@ var Service = (function () {
         return this.http.get('https://jsonplaceholder.typicode.com/posts')
             .map(function (res) { return res.json(); });
     };
-    Service = __decorate([
-        core_1.Injectable(),
-        __metadata("design:paramtypes", [http_1.Http])
-    ], Service);
     return Service;
 }());
+Service = __decorate([
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [http_1.Http])
+], Service);
 exports.Service = Service;
 //# sourceMappingURL=json.service.js.map

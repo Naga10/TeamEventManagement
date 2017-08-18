@@ -16,13 +16,13 @@ var AppComponent = (function () {
             { name: 'Lisa', age: 18 }
         ];
     }
-    AppComponent = __decorate([
-        core_1.Component({
-            selector: 'my-app',
-            template: "\n  <ul>\n    <li style=\"display:inline\"><a routerLink=\"/\">Home</a></li>\n    <li style=\"display:inline\"><a routerLink=\"/about\">About</a></li>\n  </ul><br/>\n     <about></about>\n  <router-outlet>\n  <a routerLink=\"/\">UserHome</a>\n<a routerLink=\"/about\">UserAbout</a>\n  </router-outlet>",
-        })
-    ], AppComponent);
     return AppComponent;
 }());
+AppComponent = __decorate([
+    core_1.Component({
+        selector: 'my-app',
+        template: "\n  <ul>\n    <li style=\"display:inline\"><a routerLink=\"/\">Home</a></li>\n    <li style=\"display:inline\"><a routerLink=\"/about\">About</a></li>\n  </ul><br/>\n     <about></about>\n  <router-outlet>\n  <a routerLink=\"/\">UserHome</a>\n<a routerLink=\"/about\">UserAbout</a>\n  </router-outlet>",
+    })
+], AppComponent);
 exports.AppComponent = AppComponent;
 //# sourceMappingURL=app.component.js.map

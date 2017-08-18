@@ -42,16 +42,16 @@ var UserComponent = (function () {
     UserComponent.prototype.Del = function (i) {
         this.hobbies.splice(i, 1);
     };
-    UserComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: 'user',
-            templateUrl: "user.html",
-            providers: [json_service_1.Service]
-        }),
-        __metadata("design:paramtypes", [json_service_1.Service])
-    ], UserComponent);
     return UserComponent;
 }());
+UserComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: 'user',
+        templateUrl: "user.html",
+        providers: [json_service_1.Service]
+    }),
+    __metadata("design:paramtypes", [json_service_1.Service])
+], UserComponent);
 exports.UserComponent = UserComponent;
 //# sourceMappingURL=user.component.js.map
