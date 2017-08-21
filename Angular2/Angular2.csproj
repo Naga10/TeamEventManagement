@@ -129,6 +129,7 @@
     <TypeScriptCompile Include="src\app\app.module.ts" />
     <TypeScriptCompile Include="src\app\Components\about.component.ts" />
     <TypeScriptCompile Include="src\app\Components\user.component.ts" />
+    <TypeScriptCompile Include="src\app\Login\login.component.ts" />
     <TypeScriptCompile Include="src\app\Service\app.routing.ts" />
     <TypeScriptCompile Include="src\app\Service\json.service.ts" />
     <TypeScriptCompile Include="src\main.ts" />

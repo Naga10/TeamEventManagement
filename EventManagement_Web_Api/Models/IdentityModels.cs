@@ -16,6 +16,16 @@ namespace EventManagement_Web_Api.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        //My Code
+        public virtual string FirstName { get; set; }
+        public virtual string LastName { get; set; }
+        public virtual string Gender { get; set; }
+        public virtual string Address { get; set; }
+        public virtual bool Status { get; set; }
+        public virtual int Age { get; set; }
+
+
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
